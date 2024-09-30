@@ -1,0 +1,87 @@
+<html>
+<title> LESSON & OUTPUTS </title>
+<body style="background-image:url('properties.jpg');">
+<h1 align="center" style="color:#2b5737; border:5px ridge white; border-radius: 10px; margin:10px"> Browser Outputs </h1>
+<ul>
+<li><h2> XHTML </h2>
+<p> An example of an XHTML rule is the use of proper nesting. 
+For example: "<b><i> This text appears in Boldface and Itallic </i></b>" </p>
+<img src="xhtml.jpg"> </li>
+<li><h2> HTML Lists </h2>
+<p> HTML Lists are used to organize information in a code. The 2 main types of lists are <b>Unordered and Ordered lists.</b> Here is an example: </p>
+ 	<ul> 
+	<li> BLACKPINK </li>
+	<li> TWICE </li>
+	<li> 2NE1 </li>
+	</ul> <br>
+	<ol>
+	<li> BTS </li>
+	<li> SEVENTEEN </li>
+	<li> ENHYPEN </li>
+	</ol> <br>
+<img src="lists.jpg"> 
+	<p> You may also <b>nest</b> lists within lists. </p> </li>
+<li><h2> HTML Tables </h2>
+<p> HTML Tables are also used to organize information in rows and columns. You can code many things into a table, like pictures, text, and even lists! You can also merge the table cells to make it look more organized and to your liking. </p>
+<table align="center" border="4" bordercolor="#2b5737" width="50%" cellpadding="5" cellspacing="5">
+	<tr>
+		<th colspan="3"><i><b> Santi's Table </b></i></th>
+	</tr>
+	<tr bgcolor="#9ebf93">
+		<th><i>Item Type</i></th>
+		<th>Likes    </th>
+		<th>Dislikes </th>
+	</tr>
+	<tr bgcolor="#9ebf93">
+		<td align="left"><b> I. Foods </b></td>
+		<td> Mangoes, Oranges, Grapes </td>
+		<td> Durian, Rambutan, Apples </td>
+	</tr>
+	<tr bgcolor="#9ebf93">
+		<td align="left"><b> II. Subjects <b></td>
+		<td> English, MAPEH, TLE/ICT </td>
+		<td> None! </td>
+	</tr>
+	<tr bgcolor="#9ebf93">
+		<td align="left"><b> III. Animals </b></td>
+		<td> Bunnies, Cats, Dogs </td>
+		<td> Snakes, Bugs, Coyotes </td>
+	</tr>
+</table> <br>
+<img src="tables.jpg" height="400px" width="400px">
+<p> This is an example of the table I used in my Home Page. By far, tables are the longest code I've typed yet. Similar to lists, you may also <b>nest</b> tables within tables. </p> </li>
+
+<li><h2> HTML Hyperlinks </h2>
+<p> Hyperlinks in an HTML code are made to redirect you to another website or domain. It's useful if you have a lot of pages on your website and you need an organized redirection. Hyperlinks are able to redirect you to almost anything, a published website, an e-mail, etc. Here are some examples:</p>
+	<a href="https://www.laufeymusic.com/"> My Favorite Website </a> <br>
+	<a href="mailto:santicastillo478@gmail.com"> Message Me! </a> <br> <br>
+<img src="hyperlinks.jpg">
+<p>Hyperlink No. 1 redirects you to my favorite website, while Hyperlink No. 2 redirects you to an e-mail draft to the recipient typed on the code.</p></li>
+<li><h2>HTML Forms</h2>
+<p> Forms are a way to gather and collect user information. It can be used if you want to survey someone, have a school test, or do anything related that needs user information. They can input text, select options, and submit the user input. Example of a form with a text box, radio buttons, check boxes, drop-down list, and submit & clear buttons:
+<h2> Customer Survey </h2>
+<form action="process.html" method="post">
+Name: <input name="textbox1" type="text"> <br>
+Password: <input name="password1 type="password"><br>
+Gender: <input type="radio" name="radio1"> Male <input type="radio" name="radio2"> Female <input type="radio" name="radio3"> Prefer not to say<br><br>
+Select the product/s you bought: <br>
+<input type="checkbox" name="checkboxSV1"> SEVENTEEN Album <br>
+<input type="checkbox" name="checkboxEN1"> KATSEYE Album <br>
+<input type="checkbox" name="checkboxSC1"> STAYC Album <br><br>
+Select the store location: <br>
+<select name="select1" size="1">
+<option value="paranaque"> Paranaque K-More Branch </option>
+<option value="laspinas"> Las Pinas K-More Branch </option>
+<option value="marikina"> Marikina K-More Branch </option>
+<option value="glorietta"> Manila, Glorietta K-More Branch </option>
+</select><br><br>
+Why did you choose to buy the product?: <br>
+<textarea name="tellus" rows="5" cols="40"> Feel free to express yourself. </textarea><br><br>
+<input type="submit" value="Submit?">
+<input type="reset" value="Clear Answers">
+</form>
+<img src="forms.jpg" height="500px" width="500px">
+<p> This is the final browser output of a form. Unlike others, forms <b>can not</b> be nested within each other. </p> </li>
+</ul>
+</body>
+</html>
